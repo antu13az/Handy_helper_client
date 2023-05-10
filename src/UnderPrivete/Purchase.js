@@ -8,6 +8,7 @@ import auth from "../firebaseCredential";
 import useAdmin from "../hooks/useAdmin";
 import Header from "../Pages/Shared/Header";
 import PreLoader from "../Pages/Shared/PreLoader";
+import Navber from "../Pages/Shared/Navber";
 
 const Purchase = () => {
   const [user, isLoading] = useAuthState(auth);
@@ -90,7 +91,7 @@ const Purchase = () => {
   return (
     <>
       <section className="order-section">
-        <Header color="#f5fdfd" />
+        <Navber color="#f5fdfd" />
         <div className="title">
           <h4>BOOK NOW</h4>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Shared/Header";
+import Navber from "../Shared/Navber";
 // import FreeQuentlyAsk from "./FQA/FreeQuentlyAsk";
 
 // import Partner from "./Partner";
@@ -16,7 +16,9 @@ const Home = () => {
   return (
     <div className="containers ">
       <div className="home-background ">
-        <Header />
+      
+        <Navber/>
+        
         <div className="system-grid container mx-auto px-8">
           <div
             data-aos="fade-right"

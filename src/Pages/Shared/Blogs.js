@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from './Header';
+import Navber from './Navber';
 
 const Blogs = () => {
     return (
         <div>
-            <Header color="#f5fdfd" />
+            <Navber color="#f5fdfd" />
             <div className='blog-info'>
                 <p className='font-bold text-lg mb-5'>How does prototypical inheritance work?</p>
 

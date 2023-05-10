@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BASE_API } from "../../Config";
 
 import Header from "./Header";
+import Navber from "./Navber";
 const LazyShowAllProducts = React.lazy(() => import("./ShowAllProducts"));
 const AllProducts = () => {
   const [allTools, setAllTools] = useState([]);
@@ -14,7 +15,7 @@ const AllProducts = () => {
 
   return (
     <>
-      <Header color="#f5fdfd" />
+      <Navber color="#f5fdfd" />
       <section className=" bg-tools">
         <div className="container mx-auto">
           <div className="title mb-5">

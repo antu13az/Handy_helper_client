@@ -19,6 +19,7 @@ import useToken from "../../hooks/useToken";
 import svgOne from "../../images/svg/undraw_voice_control_ofo1.svg";
 import Header from "../Shared/Header";
 import PreLoader from "../Shared/PreLoader";
+import Navber from "../Shared/Navber";
 const SingUp = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -78,7 +79,7 @@ const SingUp = () => {
   }
   return (
     <div>
-       <Header color="#f5fdfd" />
+       <Navber color="#f5fdfd" />
       <div className="singIn-container">
         <div className="forms-container">
           <div className="logSingInForm">

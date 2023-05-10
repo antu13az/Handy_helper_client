@@ -18,6 +18,7 @@ import svgOne from "../../images/svg/undraw_maker_launch_re_rq81 (1).svg";
 import "../../Pages/CssFile/AllCss.css";
 import Header from "../Shared/Header";
 import PreLoader from "../Shared/PreLoader";
+import Navber from "../Shared/Navber";
 
 const SingIn = () => {
   const navigate = useNavigate();
@@ -65,7 +66,7 @@ const SingIn = () => {
   }
   return (
     <>
-    <Header color="#f5fdfd" />
+    <Navber color="#f5fdfd" />
     
     <div className="singIn-container">
        

@@ -41,9 +41,10 @@ body {
   align-items: center;
 }
 .site-name h2 {
-  font-family: "Rubik Moonrocks", cursive;
-  font-size: 38px;
-  color: #ff0023;
+    font-family: revert;
+    font-size: 40px;
+    color: #ff006a;
+    font-weight: bold;
 }
 .menu-btn {
   display: flex;
