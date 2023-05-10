@@ -15,7 +15,7 @@ const AllProducts = () => {
 
   return (
     <>
-      <Navber color="#f5fdfd" />
+      <Navber background="#021718e0" color="white"/>
       <section className=" bg-tools">
         <div className="container mx-auto">
           <div className="title mb-5">

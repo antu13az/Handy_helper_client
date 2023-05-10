@@ -91,7 +91,7 @@ const Purchase = () => {
   return (
     <>
       <section className="order-section">
-        <Navber color="#f5fdfd" />
+        <Navber background="#021718e0" color="white" />
         <div className="title">
           <h4>BOOK NOW</h4>
         </div>

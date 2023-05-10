@@ -5,7 +5,7 @@ import Navber from './Navber';
 const Blogs = () => {
     return (
         <div>
-            <Navber color="#f5fdfd" />
+            <Navber background="#021718e0" color="white" />
             <div className='blog-info'>
                 <p className='font-bold text-lg mb-5'>How does prototypical inheritance work?</p>
 

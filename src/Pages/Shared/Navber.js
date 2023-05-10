@@ -6,7 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link, NavLink } from 'react-router-dom';
 import auth from '../../firebaseCredential';
 import blank from "../../images/svg/blank.webp";
-const Navber = () => {
+const Navber = ({ background,color }) => {
     const [user] = useAuthState(auth);
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
@@ -21,7 +21,10 @@ const Navber = () => {
         signOut(auth);
       };
     return (
-        <div className="navbar container mx-auto">
+      <nav style={{ background: background, color: color}}
+      className={colorChange ? "nav_ber colorChange " : "nav_ber"}>
+
+        <div className="navbar container mx-auto ">
   <div className="navbar-start ">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -119,6 +122,7 @@ const Navber = () => {
             </div>
   </div>
 </div>
+      </nav>
     );
 };
 

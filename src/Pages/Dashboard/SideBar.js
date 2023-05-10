@@ -14,7 +14,7 @@ const SideBar = ({ children }) => {
         <div className="drawer-content flex flex-col  ">{children}</div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu p-4 overflow-y-auto w-60 bg-[#e4e1e1] text-base-content">
+          <ul className="menu p-4 overflow-y-auto w-60 bg-[#000d20] text-base-content side-ber-ds">
             {/* <!-- Sidebar content here --> */}
             <li>
               <NavLink to="/dashboard/myProfile">My Profile</NavLink>

@@ -66,7 +66,7 @@ const SingIn = () => {
   }
   return (
     <>
-    <Navber color="#f5fdfd" />
+    <Navber background="#021718e0" color="white" />
     
     <div className="singIn-container">
        
