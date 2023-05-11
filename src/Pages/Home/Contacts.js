@@ -1,6 +1,6 @@
 import "lazysizes";
 import React from "react";
-import csImg from "../../images/svg/6230545.webp";
+import csImg from "../../../src/images/svg/contact_us.png";
 // import a plugin
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 const Contacts = () => {

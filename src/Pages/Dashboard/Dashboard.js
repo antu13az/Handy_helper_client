@@ -5,12 +5,12 @@ import SideBar from "./SideBar";
 
 const Dashboard = () => {
   return (
-   <>
-    <Navber background="#021718e0" color="white"/>
-    <SideBar>
-      <Outlet />
-    </SideBar>
-   </>
+    <>
+      <Navber background="#021718e0" color="white" />
+      <SideBar>
+        <Outlet />
+      </SideBar>
+    </>
   );
 };
 

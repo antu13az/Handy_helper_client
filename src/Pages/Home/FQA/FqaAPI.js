@@ -6,7 +6,7 @@ export const questionAnss = [
     },
     {
       id: 2,
-      question: "Do you provide any service after buy some product",
+      question: "",
       ans: "Yes! Of course after purchasing any type of producct from our site,we provide support to our customers for six months free of charge.",
     },
     {
