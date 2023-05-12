@@ -85,7 +85,7 @@ const MyOrder = () => {
     <div>
       <h1 className="text-center font-bold text-2xl mb-8">My Order</h1>
       <div className="overflow-x-auto">
-        <table className="table w-full">
+        <table className="table w-full bg-white">
           <thead>
             <tr>
               <th>Name</th>
@@ -120,13 +120,13 @@ const MyOrder = () => {
                 <td>
                   {booking.price && !booking.paid && (
                     <Link to={`/dashboard/payment/${booking._id}`}>
-                      <button className="btn btn-xs bg-green-700 border-0 ">
+                      <button className="btn btn-xs bg-green-500 text-white  border-0 ">
                         Pay
                       </button>
                     </Link>
                   )}
                   {booking.price && booking.paid && (
-                    <button className="btn btn-xs disabled: bg-indigo-700 border-0 ">
+                    <button className="btn btn-xs disabled: bg-indigo-500 text-white border-0 ">
                       paid
                     </button>
                   )}
@@ -135,7 +135,7 @@ const MyOrder = () => {
                   {booking._id && (
                     <button
                       onClick={() => handleCancel(booking._id)}
-                      className="btn btn-xs bg-red-500 border-0"
+                      className="btn btn-xs text-white bg-red-500 border-0"
                     >
                       Cancel
                     </button>

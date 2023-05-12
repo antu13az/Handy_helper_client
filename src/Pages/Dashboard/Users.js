@@ -56,7 +56,7 @@ const Users = () => {
                                 <td>{user.email}</td>
                                 <td> {
                                     user.role !== "admin" ?
-                                        <button onClick={() => makeAdmin(user.email)} className="btn btn-xs bg-green-600 text-white hover:text-white hover:bg-slate-800">Make Admin</button>
+                                        <button onClick={() => makeAdmin(user.email)} className="btn btn-xs bg-green-600 text-white hover:text-white ">Make Admin</button>
                                         :
                                         <button className="btn btn-xs bg-pink-600 text-white hover:text-white ">Already Admain</button>
                                 }</td>
